@@ -1,0 +1,123 @@
+body {
+	margin-top: 20px;
+	padding: 0;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	background: url(images/mainback.jpg);
+	color: black;
+}
+/* Outer */
+
+#outer
+{
+	height:400px;
+	width:860px;
+	margin:0 auto;
+}
+
+input[type=text],[type=password],[type=email],select,textarea{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	width:200px;
+	color: black;
+}
+
+input[type=submit]{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	width:100px;
+	background: blue;
+	color: white;
+	border-radius:20px;
+}
+
+input[type=button]{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	width:100px;
+	background: blue;
+	color: white;
+	border-radius:20px;
+}
+	
+/* Header */
+
+#header {
+	width: 860px;
+	height: 40px;
+	margin: 0 auto;
+	background:blue;
+	border-radius:20px;
+}
+
+/* Menu */
+
+#menu {
+	float: left;
+	width: 860px;
+	height: 54px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0 0 20px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: block;
+	float: left;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	margin-right: 3px;
+	padding: 12px 20px;
+	letter-spacing: -.5px;
+	text-decoration: none;
+	font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+
+/* Content */
+
+#content {
+	height:400px;
+	width:860px;
+	font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#content a {
+	float:right;
+	padding:5px;
+	text-decoration: none;
+	font: 25px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:black;
+}
+
+/* Class */
+
+.left {
+	height:150px;
+	width:150px;
+	border:1px solid blue;
+	float:left;
+	margin-left:20px;
+	margin-bottom:20px;
+	text-align:center;
+}
+
+.one {
+	height:50px;
+	width:150px;
+	margin-top:20px;
+	font-size:25px;
+}
+
+.second {
+	margin-top:20px;
+	margin-right:20px;
+}
